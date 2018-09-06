@@ -10,6 +10,7 @@
     "native-base": "^2.8.0",
     "react": "16.4.1",
     "react-native": "0.56.0",
+    "react-native-youtube": "^1.1.0",
     "react-navigation": "^2.12.1"
   },
   "devDependencies": {

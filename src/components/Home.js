@@ -9,15 +9,13 @@ import { WebView } from 'react-native';
 import { Container, Content, Icon } from 'native-base'
 import CardComponent from './CardComponent'
 
-
 class Home extends Component {
     render() {
         return (
             <Container style={styles.container}>
                 <Content>
-                    <CardComponent imageSource="1" likes="101" />
-                    <CardComponent imageSource="2" likes="201" />
-                    <CardComponent imageSource="3" likes="301" />
+                    <CardComponent thumbnail={require("../assets/me.png")} id_youtube="KVZ-P-ZI6W4" likes="101" nb_commentaires="202" pseudo="maxgfr" date="01/01/2018" description="BLABLA HEIN"/>
+                    <CardComponent thumbnail={require("../assets/me.png")}  id_youtube="KVZ-P-ZI6W4" likes="101" nb_commentaires="202" pseudo="maxgfr" date="01/01/2018" description="BLABLA HEIN"/>
                 </Content>
             </Container>
         );

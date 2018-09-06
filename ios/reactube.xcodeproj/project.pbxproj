@@ -51,6 +51,9 @@
 		33E5FFB512FA4C2B883FC4F2 /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB46802ED8594948912B49C9 /* rubicon-icon-font.ttf */; };
 		369A64F5594C4D26A54D68B9 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CC3DFA69BB04F83AB15D708 /* SimpleLineIcons.ttf */; };
 		1753C730EA704C6084AA430F /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE74B1DC62874CB4B7A714BA /* Zocial.ttf */; };
+		0C572AE9EC654A288EDB1C8C /* libRCTYouTube.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CEA989B2B346389519432E /* libRCTYouTube.a */; };
+		C99A6127680B45F8AE337B16 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = AD408B8C6AE749D598EFAAF0 /* OFL.txt */; };
+		58770EB443FC46229F05F768 /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = 459AB320529543CA9BCEED60 /* YTPlayerView-iframe-player.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -370,6 +373,10 @@
 		AB46802ED8594948912B49C9 /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		7CC3DFA69BB04F83AB15D708 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		CE74B1DC62874CB4B7A714BA /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		15BED9265F894B7690A37C2B /* RCTYouTube.xcodeproj */ = {isa = PBXFileReference; name = "RCTYouTube.xcodeproj"; path = "../node_modules/react-native-youtube/RCTYouTube.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		21CEA989B2B346389519432E /* libRCTYouTube.a */ = {isa = PBXFileReference; name = "libRCTYouTube.a"; path = "libRCTYouTube.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		AD408B8C6AE749D598EFAAF0 /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../node_modules/native-base/Fonts/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		459AB320529543CA9BCEED60 /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; name = "YTPlayerView-iframe-player.html"; path = "../node_modules/react-native-youtube/assets/YTPlayerView-iframe-player.html"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -398,6 +405,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				0C572AE9EC654A288EDB1C8C /* libRCTYouTube.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +592,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+				15BED9265F894B7690A37C2B /* RCTYouTube.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -649,6 +658,8 @@
 				AB46802ED8594948912B49C9 /* rubicon-icon-font.ttf */,
 				7CC3DFA69BB04F83AB15D708 /* SimpleLineIcons.ttf */,
 				CE74B1DC62874CB4B7A714BA /* Zocial.ttf */,
+				AD408B8C6AE749D598EFAAF0 /* OFL.txt */,
+				459AB320529543CA9BCEED60 /* YTPlayerView-iframe-player.html */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1114,6 +1125,8 @@
 				33E5FFB512FA4C2B883FC4F2 /* rubicon-icon-font.ttf in Resources */,
 				369A64F5594C4D26A54D68B9 /* SimpleLineIcons.ttf in Resources */,
 				1753C730EA704C6084AA430F /* Zocial.ttf in Resources */,
+				C99A6127680B45F8AE337B16 /* OFL.txt in Resources */,
+				58770EB443FC46229F05F768 /* YTPlayerView-iframe-player.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1245,6 +1258,14 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactube.app/reactube";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-youtube/**",
+				);
 			};
 			name = Debug;
 		};
@@ -1262,6 +1283,14 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactube.app/reactube";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-youtube/**",
+				);
 			};
 			name = Release;
 		};
@@ -1280,6 +1309,10 @@
 				);
 				PRODUCT_NAME = reactube;
 				VERSIONING_SYSTEM = "apple-generic";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-youtube/**",
+				);
 			};
 			name = Debug;
 		};
@@ -1297,6 +1330,10 @@
 				);
 				PRODUCT_NAME = reactube;
 				VERSIONING_SYSTEM = "apple-generic";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-youtube/**",
+				);
 			};
 			name = Release;
 		};
@@ -1323,6 +1360,14 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-youtube/**",
+				);
 			};
 			name = Debug;
 		};
@@ -1349,6 +1394,14 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-youtube/**",
+				);
 			};
 			name = Release;
 		};
@@ -1374,6 +1427,14 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactube-tvOS.app/reactube-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-youtube/**",
+				);
 			};
 			name = Debug;
 		};
@@ -1399,6 +1460,14 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reactube-tvOS.app/reactube-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-youtube/**",
+				);
 			};
 			name = Release;
 		};
