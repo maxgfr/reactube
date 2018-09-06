@@ -23,7 +23,6 @@ class Home extends Component {
             <Container style={styles.container}>
                 <Content>
                     <CardComponent thumbnail={require("../assets/me.jpeg")} id_youtube="KVZ-P-ZI6W4" likes="101" nb_commentaires="202" pseudo="maxgfr" date="01/01/2018" description="BLABLA HEIN"/>
-                    <CardComponent thumbnail={require("../assets/me.jpeg")}  id_youtube="KVZ-P-ZI6W4" likes="101" nb_commentaires="202" pseudo="maxgfr" date="01/01/2018" description="BLABLA HEIN"/>
                 </Content>
             </Container>
         );
