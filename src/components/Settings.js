@@ -5,7 +5,17 @@ import {
     StyleSheet
 } from "react-native";
 
+import { Icon } from 'native-base'
+
 class Settings extends Component {
+
+    static navigationOptions = {
+
+        tabBarIcon: ({ tintColor }) => (
+            <Icon name="settings" style={{ color: tintColor }} />
+        )
+    }
+
     render() {
         return (
             <View style={styles.container}>

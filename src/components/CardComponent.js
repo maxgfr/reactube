@@ -20,7 +20,7 @@ class CardComponent extends Component {
                     <Left>
                         <Thumbnail source={this.props.thumbnail} />
                         <Body>
-                            <Text>{this.props.pseudo} </Text>
+                            <Text style={{ fontWeight: "900" }}>{this.props.pseudo} </Text>
                             <Text note>{this.props.date}</Text>
                         </Body>
                     </Left>
