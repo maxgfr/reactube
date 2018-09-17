@@ -12,4 +12,6 @@ $    react-native run-ios
 
 ### Connection with Google Auth :
 
-![alt text](https://github.com/maxgfr/reactube/blob/master/github/screen.png)
+<div align="center">
+  <img src="https://github.com/maxgfr/reactube/blob/master/github/screen.png)" height="540" width="280"/>
+</div>
