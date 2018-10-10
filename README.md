@@ -10,7 +10,7 @@ $    react-native link
 $    react-native run-ios
 ```
 
-### Connection with Google Auth :
+### The application:
 
 <div align="center">
   <img src="https://github.com/maxgfr/reactube/blob/master/github/screen.png" height="540" width="280"/>
